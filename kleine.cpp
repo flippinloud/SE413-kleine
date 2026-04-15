@@ -14,6 +14,8 @@
 int main(int argc, char** argv)
 {
 	// create and configure the audio, synth, effect
+
+	//adding a comment here to test the commit functionality of git
 	Engine engine;
 	engine.start();
 	engine.attach<DX7>(0);

@@ -41,3 +41,8 @@
 *.dwo
 
 build/
+
+# Visual Studio CMake files
+.vs/
+out/
+CMakeSettings.json
