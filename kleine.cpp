@@ -1,4 +1,4 @@
-﻿
+
 //
 // kleine.cpp : eine kleine klangmusik
 //
@@ -16,6 +16,7 @@ int main(int argc, char** argv)
 	// create and configure the audio, synth, effect
 
 	//adding a comment here to test the commit functionality of git
+    //and now adding a comment in xcode to match the one from VS!
 	Engine engine;
 	engine.start();
 	engine.attach<DX7>(0);
